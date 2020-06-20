@@ -25,5 +25,5 @@ Pour résoudre ce problème, il existe une solution : le **back-tracking**. Il s
 Pourtant, j'ai pris le parti de rester sur mon implémentation initiale et ne ne pas utiliser de **back-tracking**, étant donné qu'il est possible de faire la chose suivant : lorsqu'un blocage est détecté, réinitialiser la grille et recommencer du début. Cette solution, peu élégante, a l'avantage d'être tout de même rapide (moins d'**1s** pour une grille "facile" et **10-20s** pour une grilel "expert").
 De plus, le code (uploadé ici) est très court, à peine 120 lignes, ce qui en fait un solveur de Sudoku très rapide et simple à implémenter!
 
-## Pistes poru le futur
+## Pistes pour le futur
 Je souhaiterais utiliser l'algorithme **WFC** pour répondre à d'autres problématiques, particulièrement celle de la génération d'images, mon TIPE s'étant justement axé sur la génération et l'analyse d'images!
